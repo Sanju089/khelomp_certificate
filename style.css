@@ -1,0 +1,67 @@
+body{
+    place-content: center;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 50%;
+}
+
+.contianer .c1{
+    height: 1203px;
+    width: 1600px;
+    background-color: grey;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .banner{
+    height: auto;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-border1{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+.bannerImg{
+    width: 100%;
+    border: 0.5px solid gray;
+}
+.fisrtLine{
+    width: 100%;
+    line-height: 42px;
+}
+.certificatebody{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 120px; */
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 15px;
+}
+.athleteName{
+    border-bottom: 3px dotted darkslategrey;
+}
+.certificateText{
+    position: absolute;
+    width: 100%;
+    line-height: 39px;
+    margin-top: -55px;
+    word-spacing: 9px;
+}
